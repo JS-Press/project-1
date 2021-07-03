@@ -19,7 +19,11 @@ function getImage(){
     })
     .then(link => {
         artwork.src = link
+        artwork.style.height = document.body.clientHeight/2
+        artwork.style.width = 'auto'
     })
+   
+
    
     }
 
