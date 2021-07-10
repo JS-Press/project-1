@@ -16,12 +16,30 @@ const places = []
         places[7]= 'places/Granny2520helps.jpeg'
         places[8]= 'places/IMG_20180428_092758-scaled.jpeg'
         places[9]= 'places/old_warehouse_interior.jpeg'
-        places[10]= 'places/on-warehouse-wall.jpeg'
+        places[10]= 'places/17.jpeg'
         places[11]= 'places/Steel Chain Link Framework-GalvOnAll-main-hero.jpeg'
         places[12]= 'places/unnamed.jpeg'
         places[13]= 'places/unnamjhed.jpeg'
         places[14]= 'places/watch-your-eyes-on-the-talented-graffiti-artist-turn-ugly-tedious-walls-into-stunning-3d-works-picture-1.jpeg'
-
+        places[15]= 'places/1.jpeg'
+        places[16]= 'places/2.jpeg'
+        places[17]= 'places/3.jpeg'
+        places[18]= 'places/4.jpeg'
+        places[19]= 'places/5.jpeg'
+        places[20]= 'places/6.jpeg'
+        places[21]= 'places/7.jpeg'
+        places[22]= 'places/8.jpeg'
+        places[23]= 'places/9.jpeg'
+        places[24]= 'places/10.jpeg'
+        places[25]= 'places/11.jpeg'
+        places[26]= 'places/12.jpeg'
+        places[27]= 'places/13.jpeg'
+        places[28]= 'places/14.jpeg'
+        places[29]= 'places/15.jpeg'
+        places[30]= 'places/16.jpeg'
+        places[31]= 'places/17.jpeg'
+        places[32]= 'places/18.jpeg'
+        places[33]= 'places/19.jpeg'
 
 
 
@@ -47,7 +65,7 @@ function allTheStuff(){
 //const URL = 'https://api.artic.edu/api/v1/artworks/129884'
 //let URL = `https://api.artic.edu/api/v1/artworks/${Math.floor(Math.random() * 200000)}`
 
-console.log("'" + `${places[Math.floor(Math.random() * 15)]}` + "'")
+//console.log("'" + `${places[Math.floor(Math.random() * 15)]}` + "'")
 
 
 function getImage(){
@@ -65,7 +83,7 @@ function getImage(){
         artwork.style.display = "block"
         artwork.setAttribute("class", "center")
         
-        document.body.style.backgroundImage = `url(\"${places[Math.floor(Math.random() * 15)]}\")`
+        document.body.style.backgroundImage = `url(\"${places[Math.floor(Math.random() * 33)]}\")`
        
         })
         .catch( function(){
@@ -85,14 +103,12 @@ function getImage(){
         })
     }
 
+artwork.addEventListener("click", () => {
+getImage()  
+})
 
 newButton.addEventListener('click', () => {
-
 getImage()
-
-//let newArtLink = 'https://api.artic.edu/api/v1/artworks/' + `${Math.floor(Math.random() * 200000)}`
-//artwork.innerHTML = `src=${newArtLink} alt='An Artwork' class="rotate90" id='art'`
-    
 })
 
 getImage()
