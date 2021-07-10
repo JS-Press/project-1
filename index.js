@@ -4,6 +4,7 @@ const img = document.createElement('img')
 img.innerHTML = "alt=\'An Artwork\' class=\"rotate\" id=\'art\'"
 }
 const newButton = document.querySelector('#newMatch')
+// const theDiv = document.querySelector('#theDiv')
 const artwork = document.querySelector('#art')
 const places = []
         places[0]= 'places/8dff4155f79cef7c4066a92f45c1f910.jpeg'
@@ -80,11 +81,19 @@ function getImage(){
         artwork.src = link
         artwork.style.height = document.body.clientHeight/2
         artwork.style.width = 'auto'
+        // let h = artwork.style.height
+        // let w = artwork.style.width
+
         artwork.style.display = "block"
         artwork.setAttribute("class", "center")
         
         document.body.style.backgroundImage = `url(\"${places[Math.floor(Math.random() * 33)]}\")`
        
+        // theDiv.style.width = h
+        // theDiv.style.height = w
+        // theDiv.style.display = "block"
+        // theDiv.setAttribute("class", "center")
+
         })
         .catch( function(){
         //alert('sorry try again')
