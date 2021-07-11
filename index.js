@@ -54,6 +54,42 @@ const places = []
         places[44]= 'places/29.jpeg'
         places[45]= 'places/30.jpeg'
         places[46]= 'places/31.jpeg'
+        places[47]= 'places/32.jpeg'
+        places[48]= 'places/33.jpeg'
+        places[49]= 'places/34.jpeg'
+        places[50]= 'places/35.jpeg'
+        places[51]= 'places/36.jpeg'
+        places[52]= 'places/37.jpeg'
+        places[53]= 'places/38.jpeg'
+        places[54]= 'places/39.jpeg'
+        places[55]= 'places/40.jpeg'
+        places[56]= 'places/41.jpeg'
+        places[57]= 'places/42.jpeg'
+        places[58]= 'places/43.jpeg'
+        places[59]= 'places/44.jpeg'
+        places[60]= 'places/45.jpeg'
+        places[61]= 'places/46.jpeg'
+        places[62]= 'places/47.jpeg'
+        places[63]= 'places/48.jpeg'
+        places[64]= 'places/49.jpeg'
+        places[65]= 'places/50.jpeg'
+        places[66]= 'places/51.jpeg'
+        places[67]= 'places/52.jpeg'
+        places[68]= 'places/53.jpeg'
+        places[69]= 'places/54.jpeg'
+        places[70]= 'places/55.jpeg'
+        places[71]= 'places/56.jpeg'
+        places[72]= 'places/57.jpeg'
+        places[73]= 'places/58.jpeg'
+        places[74]= 'places/59.jpeg'
+        places[75]= 'places/60.jpeg'
+        places[76]= 'places/61.jpeg'
+        places[77]= 'places/62.jpeg'
+        places[78]= 'places/63.jpeg'
+        places[79]= 'places/64.jpeg'
+        places[80]= 'places/65.jpeg'
+        places[81]= 'places/joke.jpeg'
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -99,7 +135,7 @@ function getImage(){
         artwork.style.display = "block"
         artwork.setAttribute("class", "center")
         
-        document.body.style.backgroundImage = `url(\"${places[Math.floor(Math.random() * 46)]}\")`
+        document.body.style.backgroundImage = `url(\"${places[Math.floor(Math.random() * 81)]}\")`
        
         // theDiv.style.width = h
         // theDiv.style.height = w
