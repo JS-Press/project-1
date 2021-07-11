@@ -41,7 +41,19 @@ const places = []
         places[31]= 'places/17.jpeg'
         places[32]= 'places/18.jpeg'
         places[33]= 'places/19.jpeg'
-
+        places[34]= 'places/depositphotos_228737146-stock-photo-street-wall-background-industrial-background.jpeg'
+        places[35]= 'places/20.jpeg'
+        places[36]= 'places/21.jpeg'
+        places[37]= 'places/22.jpeg'
+        places[38]= 'places/23.jpeg'
+        places[39]= 'places/24.jpeg'
+        places[40]= 'places/25.jpeg'
+        places[41]= 'places/26.jpeg'
+        places[42]= 'places/27.jpeg'
+        places[43]= 'places/28.jpeg'
+        places[44]= 'places/29.jpeg'
+        places[45]= 'places/30.jpeg'
+        places[46]= 'places/31.jpeg'
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -87,7 +99,7 @@ function getImage(){
         artwork.style.display = "block"
         artwork.setAttribute("class", "center")
         
-        document.body.style.backgroundImage = `url(\"${places[Math.floor(Math.random() * 33)]}\")`
+        document.body.style.backgroundImage = `url(\"${places[Math.floor(Math.random() * 46)]}\")`
        
         // theDiv.style.width = h
         // theDiv.style.height = w
